@@ -6,18 +6,21 @@ Special Agent is a [FuelPHP](http://fuelphp.com/) package which uses [php-mobile
 
 The package simply overwrites the Agent::is_mobiledevice() method. To install, clone it into your packages directory:
 
-	git clone --recursive git://github.com/joshmcmillan/special_agent fuel/packages/special_agent
+```sh
+git clone --recursive git://github.com/joshmcmillan/special_agent fuel/packages/special_agent
+```
 
 After doing that, ensure you're always loading it in your config.php file, like so:
 
-	'always_load' => array(
+```php
+'always_load' => array(
 
-		'packages' => array(
+	'packages' => array(
 
-			'special_agent'
-
-		)
+		'special_agent'
 
 	)
+
+)```
 
 And you're done. Easy as cheese.
