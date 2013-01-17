@@ -21,6 +21,7 @@ After doing that, ensure you're always loading it in your config.php file, like 
 
 	)
 
-)```
+)
+```
 
 And you're done. Easy as cheese.
