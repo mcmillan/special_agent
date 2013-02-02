@@ -6,7 +6,21 @@ class Agent extends \Fuel\Core\Agent
 	public static function is_mobiledevice()
 	{
 
-		return static::mobile_detect_instance()->isMobile();
+		return static::is_mobile();
+
+	}
+
+	public static function is_mobile()
+	{
+
+		return static::mobile_detect_instance()->isMobile(); 
+
+	}
+
+	public static function is_tablet()
+	{
+
+		return static::mobile_detect_instance()->isTablet();
 
 	}
 
