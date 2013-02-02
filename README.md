@@ -13,6 +13,8 @@ This package does two things.
 
 # Usage
 
+Clone it into fuel/packages:
+
 ```sh
 git clone --recursive git://github.com/joshmcmillan/special_agent fuel/packages/special_agent
 ```
