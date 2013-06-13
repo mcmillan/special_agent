@@ -25,7 +25,7 @@ class Agent extends \Fuel\Core\Agent {
 	}
 
 	public static function version($value) {
-		return static::mobile_detect_instance()->is($value);
+		return static::mobile_detect_instance()->version($value);
 	}
 
 	protected static function mobile_detect_instance() {
