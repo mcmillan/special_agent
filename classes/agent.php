@@ -12,11 +12,11 @@ class Agent extends \Fuel\Core\Agent {
 		return static::mobile_detect_instance()->isTablet();
 	}
 
-	public static function isiOS() {
+	public static function is_ios() {
 		return static::mobile_detect_instance()->isiOS();
 	}
 
-	public static function isAndroidOS() {
+	public static function is_android_os() {
 		return static::mobile_detect_instance()->isAndroidOS();
 	}
 
@@ -24,7 +24,7 @@ class Agent extends \Fuel\Core\Agent {
 		return static::mobile_detect_instance()->is($value);
 	}
 
-	public static function version($value) {
+	public static function component_version($value) {
 		return static::mobile_detect_instance()->version($value);
 	}
 
