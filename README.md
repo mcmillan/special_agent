@@ -22,7 +22,7 @@ This package does three things.
 # Usage
 Clone it into fuel/packages:
 ```sh
-git clone --recursive git://github.com/rob-bar/special_agent fuel/packages/special_agent
+git clone --recursive git://github.com/joshmcmillan/special_agent fuel/packages/special_agent
 ```
 After doing that, ensure you're always loading it in your config.php file, like so:
 ```php
